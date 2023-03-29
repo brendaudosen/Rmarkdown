@@ -1,4 +1,4 @@
-ptional arguments:
+Rage
   -h, --help          show this help message and exit
   --out-dir OUT_DIR   Out directory to save results to
   --df-path DF_PATH   Input dataframe to draw annotations from
