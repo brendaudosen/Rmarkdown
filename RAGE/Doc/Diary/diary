@@ -1,0 +1,9 @@
+Project  RAGE  
+Classification After Gene Expression
+Aim: investigation of principal component analysis for feature
+extraction from gene expression data when the ultimate goal is
+disease diagnosis.
+17 Feb 2023 
+Project folder created with a git archive mirrored on github.
+19th Feb 2023
+First version of read_data.R to download and read the raw expression data.
