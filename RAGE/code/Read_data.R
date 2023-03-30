@@ -16,8 +16,8 @@ library(fs)
 # -------------------------------------------------
 # data folders
 #
-cache    <- "C:\Users\bou1\OneDrive - University of Leicester\PHD_PROJECT\Rmarkdown\RAGE\data\cache"
-rawData  <- "C:\Users\bou1\OneDrive - University of Leicester\PHD_PROJECT\Rmarkdown\RAGE\data\Rawdata"
+cache    <- "C:/Users/bou1/OneDrive - University of Leicester/PHD_PROJECT/Rmarkdown/RAGE/data/cache"
+rawData  <- "C:/Users/bou1/OneDrive - University of Leicester/PHD_PROJECT/Rmarkdown/RAGE/data/Rawdata"
 
 # -------------------------------------------------
 # dependencies - input files used by this script
@@ -27,7 +27,7 @@ url <- "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE210nnn/GSE210271/matrix/GSE21
 # -------------------------------------------------
 # targets - output files created by this script
 #
-serRDS <- path(Rawdata, "GSE210271_series_matrix.txt.gz")
+serRDS <- path(rawData, "GSE210271_series_matrix.txt.gz")
 exnRDS <- path(cache,   "expression.rds")
 patRDS <- path(cache,   "patients.rds")
 valRDS <- path(cache,   "validation.rds")
@@ -129,3 +129,4 @@ readRDS(exnRDS) %>%
 #
 sink(type = "message" ) 
 close(lf)
+
