@@ -8,7 +8,7 @@
 #   training.rds   ... AEGIS-1 data
 #   validation.rds ... AEGIS-2 data
 #
-# Date: 30 March 2023
+# Date: 31 March 2023
 #
 library(tidyverse)
 library(fs)
